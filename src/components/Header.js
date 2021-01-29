@@ -1,13 +1,12 @@
 import React from 'react'
 import "./Header.css"
-import logo from "./assets/teslaLogoSmall.svg"
+import logo from "../assets/teslaLogoSmall.svg"
 function Header() {
     return (
         <div className = "header">
             <div className="header_logo">
                 <img src={logo} alt="Tesla logo"/>
             </div>
-            
             
             <div className="header_center">
                 <p>Model S</p>
@@ -17,6 +16,7 @@ function Header() {
                 <p>Solar Roof</p>
                 <p>Solar Panel</p>
             </div>
+            
             <div className="header_right">
                 <p>Shop</p>
                 <p>Tesla Account</p>

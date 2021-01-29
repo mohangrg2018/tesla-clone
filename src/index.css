@@ -4,6 +4,9 @@
   font-weight: normal;
 }
 
+*{
+  margin: 0;
+}
 
 body {
   margin: 0;
