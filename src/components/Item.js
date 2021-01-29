@@ -17,8 +17,7 @@ function Item({
 }) {
   return (
     <div className="item" style={{
-
-        backgroundImage: 'url("+ {backgroundImg} +")' 
+      backgroundImage: `url(${backgroundImg})`
     }}>
       <div className="item_container">
         <div className="item_text">
