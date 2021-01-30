@@ -28,12 +28,12 @@ function Item({
         </div>
         <div className="item_lowerThird">
           <div className="item_buttons">
-              <Button imp="primary" text="leftBtnTxt" link="leftBtnLink" />
+              <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
               {twoButtons && (
-                  <Button imp="secondary" text="rightBtnTxt" link="rightBtnLink" />
+                  <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
               )} 
           </div>
-          {first &&(
+          {first && (
               <div className="item_expand">
                   <ExpandMoreIcon />
               </div>

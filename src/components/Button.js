@@ -1,8 +1,13 @@
 import React from 'react'
+import "./Button.css"
 
-function Button() {
+const Button = ({ imp, text, link}) => {
     return (
-        <div>
+        // eslint-disable-next-line
+        <div className={`button ${imp == `secondary` ? `button_white`: ``}`}>
+            <a href={link}>
+                {text}
+            </a>
             
         </div>
     )
