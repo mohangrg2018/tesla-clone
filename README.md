@@ -1,1 +1,1 @@
-It is a clone of tesla website created using Reactjs.
+It is homepage clone of a tesla website created using Reactjs.
